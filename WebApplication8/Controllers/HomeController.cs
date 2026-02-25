@@ -6,19 +6,30 @@ namespace WebApplication8.Controllers;
 
 public class HomeController : Controller
 {
+    private ITaskRepository _repo;
+    
+    public HomeController(ITaskRepository temp)
+    {
+        _repo = temp;
+    }
+    [HttpGet]
     public IActionResult Index()
     {
-        return View();
+        return View(new Task());
     }
 
-    public IActionResult Privacy()
+    [HttpPost]
+    public IActionResult Index(Task t)
     {
-        return View();
-    }
+        if (ModelState.IsValid)
+        {
+            _repo.AddTask(t);
+        }
 
-    [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-    public IActionResult Error()
-    {
-        return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        return View(new Task());
     }
+    
+    
+
+   
 }
