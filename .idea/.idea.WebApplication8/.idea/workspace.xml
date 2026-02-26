@@ -8,30 +8,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ed79f43-8d94-475a-ba23-048765ae8e76" name="Changes" comment="" />
+    <list default="true" id="2ed79f43-8d94-475a-ba23-048765ae8e76" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/WebApplication8/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication8/Controllers/HomeController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication8/TaskApplications.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication8/TaskApplications.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication8/Views/Home/createTask.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication8/Views/Home/createTask.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication8/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication8/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication8/bin/Debug/net10.0/WebApplication8.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication8/bin/Debug/net10.0/WebApplication8.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication8/bin/Debug/net10.0/WebApplication8.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication8/bin/Debug/net10.0/WebApplication8.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication8/obj/Debug/net10.0/WebApplication8.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication8/obj/Debug/net10.0/WebApplication8.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication8/obj/Debug/net10.0/WebApplication8.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication8/obj/Debug/net10.0/WebApplication8.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication8/obj/Debug/net10.0/WebApplication8.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication8/obj/Debug/net10.0/WebApplication8.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DpaMonitoringSettings">
+    <option name="firstShow" value="false" />
+  </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="1" />
+    <option name="cachedIndexableFilesCount" value="29" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "levihenstrom"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;levihenstrom&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/natcastro/Mission08_Team5.git",
-    "accountId": "cb20b0e8-bcb7-4a52-a55d-ef5e930e584c"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/natcastro/Mission08_Team5.git&quot;,
+    &quot;accountId&quot;: &quot;cb20b0e8-bcb7-4a52-a55d-ef5e930e584c&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/WebApplication8/obj/project.assets.json" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -40,9 +53,9 @@
     <urls />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="3AB11lCe13CbjVGHayB1JkvnPxC" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -50,6 +63,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    ".NET Launch Settings Profile.WebApplication8: http.executor": "Run",
+    ".NET Launch Settings Profile.WebApplication8: https.executor": "Run",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -67,7 +82,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.WebApplication8: http">
+  <component name="RunManager" selected=".NET Launch Settings Profile.WebApplication8: https">
     <configuration name="WebApplication8: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/WebApplication8/WebApplication8.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net10.0" />

@@ -1,0 +1,45 @@
+@using TaskModel = WebApplication8.Models.Task
+@model IEnumerable<TaskModel>
+
+@if (!Model.Any())
+{
+    <div class="text-muted">No tasks</div>
+}
+else
+{
+    <div class="table-responsive">
+        <table class="table table-sm align-middle">
+            <thead>
+            <tr>
+                <th>Task</th>
+                <th>Due</th>
+                <th>Category</th>
+                <th class="text-end">Actions</th>
+            </tr>
+            </thead>
+            <tbody>
+            @foreach (var t in Model)
+            {
+                <tr>
+                    <td class="fw-semibold">@t.TaskName</td>
+                    <td>@(t.DueDate?.ToString("yyyy-MM-dd") ?? "")</td>
+                    <td>@(t.Category?.CategoryName ?? $"Category #{t.CategoryId}")</td>
+
+                    <td class="text-end">
+                        <a class="btn btn-outline-dark btn-sm me-2"
+                           asp-controller="Home" asp-action="Edit" asp-route-id="@t.TaskItemId">Edit</a>
+
+                        <a class="btn btn-dark btn-sm me-2"
+                           asp-controller="Home" asp-action="Delete" asp-route-id="@t.TaskItemId">Delete</a>
+
+                        <form asp-controller="Home" asp-action="Complete" asp-route-id="@t.TaskItemId"
+                              method="post" class="d-inline">
+                            <button type="submit" class="btn btn-success btn-sm">Complete</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+            </tbody>
+        </table>
+    </div>
+}

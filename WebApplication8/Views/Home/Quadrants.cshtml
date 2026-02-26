@@ -1,0 +1,57 @@
+@using System.Linq
+@using TaskModel = WebApplication8.Models.Task
+@model IEnumerable<TaskModel>
+
+@{
+    ViewData["Title"] = "Quadrants";
+
+    // Only show not-completed tasks
+    var active = Model.Where(t => !t.Completed).ToList();
+
+    var q1 = active.Where(t => t.Quadrant == 1).OrderBy(t => t.DueDate).ToList();
+    var q2 = active.Where(t => t.Quadrant == 2).OrderBy(t => t.DueDate).ToList();
+    var q3 = active.Where(t => t.Quadrant == 3).OrderBy(t => t.DueDate).ToList();
+    var q4 = active.Where(t => t.Quadrant == 4).OrderBy(t => t.DueDate).ToList();
+}
+
+<div class="container">
+    <h2 class="mb-4">Task Quadrants</h2>
+
+    <div class="row g-4">
+        <div class="col-12 col-md-6">
+            <div class="card h-100 shadow-sm">
+                <div class="card-header fw-semibold">Quadrant I — Important / Urgent</div>
+                <div class="card-body">
+                    @await Html.PartialAsync("_QuadrantTable", q1)
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-6">
+            <div class="card h-100 shadow-sm">
+                <div class="card-header fw-semibold">Quadrant II — Important / Not Urgent</div>
+                <div class="card-body">
+                    @await Html.PartialAsync("_QuadrantTable", q2)
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-6">
+            <div class="card h-100 shadow-sm">
+                <div class="card-header fw-semibold">Quadrant III — Not Important / Urgent</div>
+                <div class="card-body">
+                    @await Html.PartialAsync("_QuadrantTable", q3)
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-6">
+            <div class="card h-100 shadow-sm">
+                <div class="card-header fw-semibold">Quadrant IV — Not Important / Not Urgent</div>
+                <div class="card-body">
+                    @await Html.PartialAsync("_QuadrantTable", q4)
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

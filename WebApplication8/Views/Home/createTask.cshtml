@@ -1,27 +1,29 @@
-@model WebApplication8.Models.TodoTask
+@model WebApplication8.Models.Task
 @{
-    ViewData["Title"] = "Add Task";
+    ViewData["Title"] = ViewBag.PageTitle ?? "Add Task";
     
     // Get the list of categories passed from the controller
-    // This will populate the dropdown dynamically from the database ( I just put those names, but we can change them if we are using a different one)
+    // This will populate the dropdown dynamically from the database
     var categories = ViewBag.Categories as List<WebApplication8.Models.Category>;
+    var formAction = ViewBag.FormAction as string ?? "CreateTask";
 }
-    <h1 class="mb-4">Add Task</h1>
+    <h1 class="mb-4">@ViewData["Title"]</h1>
 
     <div class="row">
         <div class="col-lg-8">
             <div class="card shadow-sm">
                 <div class="card-body">
-                    <!-- Form that posts to the createTask action in the controller -->
+                    <!-- Form posts to CreateTask or Edit based on the action supplied by the controller -->
                     
-                    <form asp-action="createTask" method="post">
+                    <form asp-action="@formAction" method="post">
+                        <input type="hidden" asp-for="TaskItemId" />
                         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
                         <!-- Task Name -->
                         <div class="mb-3">
-                            <label asp-for="Task" class="form-label"></label>
-                            <input asp-for="Task" class="form-control" />
-                            <span asp-validation-for="Task" class="text-danger"></span>
+                            <label asp-for="TaskName" class="form-label"></label>
+                            <input asp-for="TaskName" class="form-control" />
+                            <span asp-validation-for="TaskName" class="text-danger"></span>
                         </div>
 
                         <div class="row">
@@ -52,7 +54,7 @@
                                 {
                                     foreach (var c in categories)
                                     {
-                                        <option value="@c.CategoryId">@c.Name</option>
+                                        <option value="@c.CategoryId">@c.CategoryName</option>
                                     }
                                 }
                             </select>
@@ -66,7 +68,7 @@
 
                         <div class="d-flex gap-2">
                             <button type="submit" class="btn btn-primary">Save</button>
-                            <a asp-controller="Home" asp-action="Index" class="btn btn-outline-secondary">Cancel</a>
+                            <a asp-controller="Home" asp-action="Quadrants" class="btn btn-outline-secondary">Cancel</a>
                         </div>
                     </form>
 
