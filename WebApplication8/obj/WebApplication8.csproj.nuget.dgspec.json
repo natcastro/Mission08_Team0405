@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/nataliecastro/RiderProjects/WebApplication8/WebApplication8/WebApplication8.csproj": {}
+    "/Users/levihenstrom/Desktop/BYU/IS Core/Winter 2025/IS 413 - Development/IS 413/IS413Assignments/GROUPPROJECT2/Mission08_Team5/WebApplication8/WebApplication8.csproj": {}
   },
   "projects": {
-    "/Users/nataliecastro/RiderProjects/WebApplication8/WebApplication8/WebApplication8.csproj": {
+    "/Users/levihenstrom/Desktop/BYU/IS Core/Winter 2025/IS 413 - Development/IS 413/IS413Assignments/GROUPPROJECT2/Mission08_Team5/WebApplication8/WebApplication8.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/nataliecastro/RiderProjects/WebApplication8/WebApplication8/WebApplication8.csproj",
+        "projectUniqueName": "/Users/levihenstrom/Desktop/BYU/IS Core/Winter 2025/IS 413 - Development/IS 413/IS413Assignments/GROUPPROJECT2/Mission08_Team5/WebApplication8/WebApplication8.csproj",
         "projectName": "WebApplication8",
-        "projectPath": "/Users/nataliecastro/RiderProjects/WebApplication8/WebApplication8/WebApplication8.csproj",
-        "packagesPath": "/Users/nataliecastro/.nuget/packages/",
-        "outputPath": "/Users/nataliecastro/RiderProjects/WebApplication8/WebApplication8/obj/",
+        "projectPath": "/Users/levihenstrom/Desktop/BYU/IS Core/Winter 2025/IS 413 - Development/IS 413/IS413Assignments/GROUPPROJECT2/Mission08_Team5/WebApplication8/WebApplication8.csproj",
+        "packagesPath": "/Users/levihenstrom/.nuget/packages/",
+        "outputPath": "/Users/levihenstrom/Desktop/BYU/IS Core/Winter 2025/IS 413 - Development/IS 413/IS413Assignments/GROUPPROJECT2/Mission08_Team5/WebApplication8/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/nataliecastro/.nuget/NuGet/NuGet.Config"
+          "/Users/levihenstrom/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
@@ -43,6 +43,28 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[10.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[10.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[10.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[10.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
