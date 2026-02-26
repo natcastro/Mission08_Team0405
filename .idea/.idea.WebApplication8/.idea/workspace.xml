@@ -8,19 +8,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ed79f43-8d94-475a-ba23-048765ae8e76" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/WebApplication8/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication8/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication8/obj/Debug/net10.0/WebApplication8.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication8/obj/Debug/net10.0/WebApplication8.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication8/obj/Debug/net10.0/WebApplication8.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication8/obj/Debug/net10.0/WebApplication8.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication8/obj/Debug/net10.0/WebApplication8.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication8/obj/Debug/net10.0/WebApplication8.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication8/obj/Debug/net10.0/WebApplication8.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication8/obj/Debug/net10.0/WebApplication8.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication8/obj/WebApplication8.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication8/obj/WebApplication8.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication8/obj/WebApplication8.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication8/obj/WebApplication8.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication8/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication8/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication8/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication8/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication8/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication8/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication8/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication8/obj/rider.project.restore.info" afterDir="false" />
-    </list>
+    <list default="true" id="2ed79f43-8d94-475a-ba23-048765ae8e76" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -120,7 +108,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1772050938441</updated>
-      <workItem from="1772050940425" duration="4389000" />
+      <workItem from="1772050940425" duration="4805000" />
     </task>
     <task id="LOCAL-00001" summary="HomeController.cs">
       <option name="closed" value="true" />
