@@ -1,6 +1,7 @@
 @using TaskModel = WebApplication8.Models.Task
 @model IEnumerable<TaskModel>
 
+@* Partial view that displays a list of tasks in a table for one quadrant *@
 @if (!Model.Any())
 {
     <div class="text-muted">No tasks</div>
