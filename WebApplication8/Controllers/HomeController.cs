@@ -4,6 +4,9 @@ using TaskModel = WebApplication8.Models.Task;
 
 namespace WebApplication8.Controllers;
 
+
+// Controller that handles task creation, editing, deletion,
+// completion, and displaying tasks in quadrant view.
 public class HomeController : Controller
 {
     private readonly ITaskRepository _repo;

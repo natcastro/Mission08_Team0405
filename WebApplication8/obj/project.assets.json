@@ -2432,19 +2432,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/levihenstrom/.nuget/packages/": {}
+    "/Users/jooyoung/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/levihenstrom/Desktop/BYU/IS Core/Winter 2025/IS 413 - Development/IS 413/IS413Assignments/GROUPPROJECT2/Mission08_Team5/WebApplication8/WebApplication8.csproj",
+      "projectUniqueName": "/Users/jooyoung/RiderProjects/Mission08_Team5/WebApplication8/WebApplication8.csproj",
       "projectName": "WebApplication8",
-      "projectPath": "/Users/levihenstrom/Desktop/BYU/IS Core/Winter 2025/IS 413 - Development/IS 413/IS413Assignments/GROUPPROJECT2/Mission08_Team5/WebApplication8/WebApplication8.csproj",
-      "packagesPath": "/Users/levihenstrom/.nuget/packages/",
-      "outputPath": "/Users/levihenstrom/Desktop/BYU/IS Core/Winter 2025/IS 413 - Development/IS 413/IS413Assignments/GROUPPROJECT2/Mission08_Team5/WebApplication8/obj/",
+      "projectPath": "/Users/jooyoung/RiderProjects/Mission08_Team5/WebApplication8/WebApplication8.csproj",
+      "packagesPath": "/Users/jooyoung/.nuget/packages/",
+      "outputPath": "/Users/jooyoung/RiderProjects/Mission08_Team5/WebApplication8/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/levihenstrom/.nuget/NuGet/NuGet.Config"
+        "/Users/jooyoung/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"

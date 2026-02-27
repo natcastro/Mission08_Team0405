@@ -1,6 +1,8 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
+// Models representing Task and Category entities for the application.
+// These classes define the structure of data stored in the database.
 namespace WebApplication8.Models
 {
     public class Task

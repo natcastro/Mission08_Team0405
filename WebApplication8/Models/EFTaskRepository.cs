@@ -1,5 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
+// Entity Framework implementation of ITaskRepository.
+// Handles all database operations for Tasks and Categories.
 namespace WebApplication8.Models
 {
     public class EFTaskRepository : ITaskRepository
